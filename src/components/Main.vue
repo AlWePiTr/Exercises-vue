@@ -85,7 +85,7 @@
       </p>
       <a href="" class="common-btn contact-btn">お問い合わせへ</a>
     </div>
-  <footer class="top-footer">
+<!--   <footer class="top-footer">
     <div class="footer-bar">
       <div class="flex">
         <h1 class="header-logo">estra inc.</h1>
@@ -102,7 +102,7 @@
       </div>
     </div>
     <small>Copyright 2019 estra inc. All Rights Reserved.</small>
-  </footer>
+  </footer> -->
   </div>
   
 </template>
@@ -399,7 +399,7 @@ body {
 /*         Footer         */
 /*------------------------*/
 
-.top-footer{
+/* .top-footer{
   position: relative;
   height: 90px;
   text-align: center;
@@ -447,7 +447,7 @@ body {
 
 .header-nav a {
   color: #f2f2f2;
-}
+} */
 
 
 @media screen and (max-width: 768px) {

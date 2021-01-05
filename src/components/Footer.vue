@@ -21,9 +21,9 @@
 
 <style scoped>
 .top-footer{
-  height: 1000px;
+  position: relative;
+  height: 90px;
   text-align: center;
-  line-height: 70px;
   background-color: #000;
   color: #fff;
 }
@@ -33,15 +33,49 @@
   line-height: 70px;
 }
 
-.top-footer {
-  background: #000;
-  text-align: center;
-}
-
 .top-footer small {
   text-align: center;
   color: #fff;
 }
 
+.header {
+  height: 70px;
+  background: #000;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 70px;
+}
+
+.header-nav ul {
+  display: flex;
+}
+
+.header-nav li {
+  margin-right: 35px;
+  font-size: 16px;
+}
+
+.header-nav a {
+  color: #f2f2f2;
+}
+
+@media screen and (max-width: 768px){
+  .top-footer .header-logo {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }  
+}
 </style>
 
