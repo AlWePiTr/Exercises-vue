@@ -20,8 +20,17 @@
 </template>
 
 <style scoped>
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
 .top-footer{
-  position: relative;
   height: 90px;
   text-align: center;
   background-color: #000;
@@ -36,17 +45,6 @@
 .top-footer small {
   text-align: center;
   color: #fff;
-}
-
-.header {
-  height: 70px;
-  background: #000;
-}
-
-.header-wrap {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .header-logo {
@@ -75,7 +73,11 @@
     margin: 0;
     width: 100%;
     text-align: center;
-  }  
+  }
+
+  .header-nav {
+    display: none;
+  }
 }
 </style>
 

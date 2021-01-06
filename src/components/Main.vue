@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="main">
     <div class="eyecatch">
       <p class="catchcopy">機械にはできない仕事を</p>
       <div class="news flex">
@@ -109,6 +109,10 @@
 
 <style scoped>
 
+#main {
+  height: auto;
+}
+
 html{
   height: 100%;
 }
@@ -161,7 +165,7 @@ body {
 }
 
 .eyecatch{
-  height: calc(100% - 70px);
+  height: calc(100vh - 70px);
   background: url(../assets/eyecatch.jpg) no-repeat;
   background-size: cover;
   background-position: center;
